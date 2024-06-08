@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
           width: 323.5,
           height: 204,
           margin: EdgeInsets.all(15),
-          decoration: BoxDecoration(boxShadow: AppColors.shadows),
+          decoration: BoxDecoration(color: Colors.black.withOpacity(0.4),boxShadow: AppColors.shadows),
           child: Content(),
         ),),
     );

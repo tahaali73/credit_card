@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
 class AppColors{
-  static Color bgColor= Colors.green.shade200;
+  static Color bgColor= Colors.blueGrey.shade800;
 
   static List<BoxShadow> shadows=[
     BoxShadow(
-        color: Colors.white.withOpacity(0.5),
+        color: Colors.amberAccent.withOpacity(0.1),
         spreadRadius: -5,
-        blurRadius: 25,
+        blurRadius: 10,
         offset: Offset(-5,-5)
     ),
     BoxShadow(
-        color: Colors.white.withOpacity(0.2),
+        color: Colors.amberAccent.withOpacity(0.1),
         spreadRadius: 2,
-        blurRadius: 25,
+        blurRadius: 10,
         offset: Offset(7,-7)
     )
   ];
